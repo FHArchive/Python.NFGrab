@@ -37,11 +37,14 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 47d9c2b7a8def0f284c6353840a5389ac9902fd4170036097321eb37d9f8d2f3
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	49df93e31e48c4bd9f0dd09f2c71bdf3d6a29acd645f7ab21b5dcc945c9c0893	ProggyCleanNF-Latin2.ttf
+  SHA256	10f36a9210e797321cf617a1be5be4d0992ce6376f02e2ce11a9ed9c6cbe9072	ProggyCleanNF-Regular.ttf
+  SHA256	c429f7bc7346727fb1ba796e970382a2905ab209310b75bd12cc70e735c5f32a	ProggyCleanNF-SlashedZero.ttf
 
 ============================= ProggyCleanNF =============================

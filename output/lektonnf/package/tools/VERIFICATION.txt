@@ -37,11 +37,14 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 57d7083506c4625b71d738d741ce402101a450a340fb690d1b1f763618e68eaf
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	cc4df89cba40969d4b650196b4bef67e6f3487bd8477e60cc38761ec39bc26f0	LektonNF-Bold.ttf
+  SHA256	2868e104c99da334fd07d05b6da33c91494a32ebddb7bf3125d3c4708e28da15	LektonNF-Italic.ttf
+  SHA256	b056ff154846891cbed8188e2417cf994c56b98e7dbe6bb997770a49234c0d66	LektonNF-Regular.ttf
 
 ============================= LektonNF =============================

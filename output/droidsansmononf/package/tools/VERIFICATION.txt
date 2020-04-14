@@ -37,11 +37,12 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 730a180da32ccac979781d7039344b948bd040266dd3da53f261b5e7867bd0b9
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	9fac02e29b7434a86a8422d72d4866ad7a7288486088bf395411ab8c89c71914	DroidSansMonoNF-Regular.otf
 
 ============================= DroidSansMonoNF =============================

@@ -37,11 +37,12 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 91469463516e1ae77afee669ab384bea6ab29b36fa63d607c552032c57337a2a
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	8cba57840b28d7681d81803f2f7cc8b11c7616bbceb2f5793d89f3313d20065c	AgaveNF-Regular.ttf
 
 ============================= AgaveNF =============================

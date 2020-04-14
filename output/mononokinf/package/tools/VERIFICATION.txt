@@ -37,11 +37,15 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 86193f61881563a9a3be62f27a9aa87816a95cc982be5c58a3a6cc3f86301389
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	3dd509d77e5e6a4f6a7f1e9df03266eaa3d31866b2a3ddf30fc160ff1d165af0	MononokiNF-Bold.ttf
+  SHA256	3ca6e20cfbf02d425bf3ae206757a861be715ef527cc8e6ac1da238e5989e799	MononokiNF-Bold-Italic.ttf
+  SHA256	abe2b31d9fed210eb468df93e8627e3a0122385bbf456682fdf551f44e200971	MononokiNF-Italic.ttf
+  SHA256	2224eda74a1de885e94b1b7290baf7b5dcaee04e241573e8d1425ef36f63ebc9	MononokiNF-Regular.ttf
 
 ============================= MononokiNF =============================

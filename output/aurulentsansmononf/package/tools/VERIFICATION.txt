@@ -37,11 +37,12 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 744c7986284ec17615ddfd45c6ff20e7a075e504b5c0a42e6964c49e264db673
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	2c6b00491bde680cb9dc91b53ed0fdfbe70219339219ff0131114c99c6c3a502	AurulentSansMonoNF-Regular.otf
 
 ============================= AurulentSansMonoNF =============================

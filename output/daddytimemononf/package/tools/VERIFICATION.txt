@@ -37,11 +37,12 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 444c8008ec4935f750e79a4e9722c61a6b064a35717c6aa1577ae4fcd70a2a7a
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	bccd4fd2516079250d1ff3d3503a44d2b3945218eccf2cd18efaba7600102469	DaddyTimeMonoNF-Regular.ttf
 
 ============================= DaddyTimeMonoNF =============================

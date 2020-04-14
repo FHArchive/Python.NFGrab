@@ -37,11 +37,18 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 076f7b8385de6fae419bae86fb52dae27ea31e4b74718af1452bda3164532119
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	cbb8eaeae4f91bbeedf220012bee0d2bc591540880648c99cadaca5cbf0b3d78	NotoNF-Emoji.ttf
+  SHA256	a2a59a2c81b14439f5c3a63743aa33e80e70ded90a6adf503e5d4c3e6f941934	NotoNF-Mono.ttf
+  SHA256	f8d9357a9066c1db821b156bd6c52918ae1f793e0e856d151daa8dad5ccf3821	NotoNF-Sans.ttf
+  SHA256	7eb1c8475e263f2371cb54fd79f73b7b98b6594c2d0871442c4e7a63f0e08f2c	NotoNF-Sans-Display.ttf
+  SHA256	124ba5efe41b88fb0b8cb2dd7cce39bac86470b476bdbc8bb3ef16838bf26de9	NotoNF-Sans-Mono.ttf
+  SHA256	70e0662236427778d774ce359883aca61c51d980a96a8d943f243fc532823474	NotoNF-Serif.ttf
+  SHA256	7409bac13df4af339db09c5d4e02dd6f87a8895d0ef9328f300e9eb0e7eaa09a	NotoNF-Serif-Display.ttf
 
 ============================= NotoNF =============================

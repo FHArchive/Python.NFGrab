@@ -37,11 +37,12 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 7d936ba66614630ea5390172023cbb759dba05f9ffdf750768ec79526c15f6d9
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	298768e5cf5a9476b58281d7cf2efec9d418328386c4cba78c8ff47dfb2f323e	HeavyDataNF-Regular.ttf
 
 ============================= HeavyDataNF =============================

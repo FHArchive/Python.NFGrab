@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>firacodenf</id>
+		<version>2.1.0</version>
+		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/firacodenf</packageSourceUrl>
+		<owners>FredHappyface</owners>
+		<title>FiraCodeNF</title>
+		<authors>The Fira Code Project Authors (https://github.com/tonsky/FiraCode) ryanoasis</authors>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/FiraCode</projectUrl>
+		<copyright>The Fira Code Project Authors (https://github.com/tonsky/FiraCode)</copyright>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/FiraCode/LICENSE</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/firacodenf/proj-icon.png</iconUrl>
+		<tags>nerd font programming powerline octicons awesome firacodenf</tags>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/FiraCode/readme.md</docsUrl>
+		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/FiraCode</projectSourceUrl>
+		<summary># FiraCodeNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).</summary>
+		<description>
+# FiraCodeNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).
+
+## Fira Code: monospaced font with programming ligatures
+
+&lt;img src=&quot;./showcases/fira_code_logo.svg&quot;&gt;
+
+### Problem
+
+Programmers use a lot of symbols, often encoded with several characters. For the human brain, sequences like `-&gt;`, `&lt;=` or `:=` are single logical tokens, even if they take two or three characters on the screen. Your eye spends a non-zero amount of energy to scan, parse and join multiple characters into a single logical one. Ideally, all programming languages should be designed with full-fledged Unicode symbols for operators, but that’s not the case yet.
+
+### Solution
+
+#### [Download v.2](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting) · [News &amp; updates](https://twitter.com/FiraCode)
+
+&lt;a href=&quot;https://patreon.com/tonsky&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;./fira_code_patreon.png&quot;&gt;&lt;/a&gt;
+
+Fira Code is an extension of the Fira Mono font containing a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
+
+&lt;img src=&quot;./showcases/all_ligatures.png&quot;&gt;
+
+### Code examples
+
+Ruby:
+
+&lt;img src=&quot;./showcases/ruby.png&quot;&gt;
+
+JavaScript:
+
+&lt;img src=&quot;./showcases/javascript.png&quot;&gt;
+
+PHP:
+
+&lt;img src=&quot;./showcases/php.png&quot;&gt;
+
+Erlang:
+
+&lt;img src=&quot;./showcases/erlang.png&quot;&gt;
+
+Elixir:
+
+&lt;img src=&quot;/showcases/elixir.png&quot;&gt;
+
+Go:
+
+&lt;img src=&quot;./showcases/go.png&quot;&gt;
+
+LiveScript:
+
+&lt;img src=&quot;./showcases/livescript.png&quot;&gt;
+
+Clojure:
+
+&lt;img src=&quot;./showcases/clojure.png&quot;&gt;
+
+Swift:
+
+&lt;img src=&quot;./showcases/swift.png&quot;&gt;
+
+Stylistic sets:
+
+See [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+
+&lt;img src=&quot;./showcases/stylistic_sets.png&quot;&gt;
+
+
+### Terminal support
+
+| Works              | Doesn’t work       |
+| ------------------ | ------------------ |
+| **Butterfly**      | **Alacritty**      |
+| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **Windows Console (conhost.exe)** |
+| **Hyper.app**      | **Cmder**          |
+| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **ConEmu** |
+| **Kitty**          | **GNOME Terminal** |
+| **Konsole**        | **mate-terminal**  | 
+| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/
+
+...
+		</description>
+		<dependencies>
+			<dependency id="chocolatey-font-helpers.extension" version="0.0.2" />
+		</dependencies>
+	</metadata>
+	<files>
+		<!-- this section controls what actually gets packaged into the Chocolatey package -->
+		<file src="tools\**" target="tools" />
+		<!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+	</files>
+</package>

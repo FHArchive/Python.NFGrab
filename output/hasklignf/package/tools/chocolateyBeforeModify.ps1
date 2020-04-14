@@ -1,0 +1,16 @@
+$ErrorActionPreference = 'Stop'
+
+Uninstall-ChocolateyFont "HaskligNF-Black.otf"
+Uninstall-ChocolateyFont "HaskligNF-Black-Italic.otf"
+Uninstall-ChocolateyFont "HaskligNF-Bold.otf"
+Uninstall-ChocolateyFont "HaskligNF-Bold-Italic.otf"
+Uninstall-ChocolateyFont "HaskligNF-Extra-Light.otf"
+Uninstall-ChocolateyFont "HaskligNF-Extra-Light-Italic.otf"
+Uninstall-ChocolateyFont "HaskligNF-Italic.otf"
+Uninstall-ChocolateyFont "HaskligNF-Light.otf"
+Uninstall-ChocolateyFont "HaskligNF-Light-Italic.otf"
+Uninstall-ChocolateyFont "HaskligNF-Medium.otf"
+Uninstall-ChocolateyFont "HaskligNF-Medium-Italic.otf"
+Uninstall-ChocolateyFont "HaskligNF-Regular.otf"
+Uninstall-ChocolateyFont "HaskligNF-Semibold.otf"
+Uninstall-ChocolateyFont "HaskligNF-Semibold-Italic.otf"

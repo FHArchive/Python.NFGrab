@@ -37,11 +37,15 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 980a217d4fdb4891712c460af1cd21b3ca6697a4767a83ca933c8c26655cfd3d
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	b31ffa4dbe8f168d67e02a1ade04aeefb7c568bb49db1fcb61f9ea83f9d54d2a	ArimoNF-Bold.ttf
+  SHA256	29e19377a576b0cf9b8a45e3453ca44beeafb26258d8fad3a01a94bb8d43f17a	ArimoNF-Bold-Italic.ttf
+  SHA256	fbefbfc8e1bebb81aebf420116b24184346efe82f36b5c80bc5fc330dd8107c1	ArimoNF-Italic.ttf
+  SHA256	ad811670f08eefc665d3bbdb65fbfa95f487ce3587b53317543d5710ca8c471f	ArimoNF-Regular.ttf
 
 ============================= ArimoNF =============================

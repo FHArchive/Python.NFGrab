@@ -37,11 +37,19 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 2232a314f46e8f98fef48b4143db3c92048213340e88c27b8ab93b2b0402b11a
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	a82ca1709a1dd063dae2700932aef3d5aad1834197fd6421299890e2564aff0c	JetBrainsMonoNF-Bold.ttf
+  SHA256	3b8e6e6a91ee89748d5b171711dfd78ba13507830f5d82e4f549f1f2a38e5019	JetBrainsMonoNF-Bold-Italic.ttf
+  SHA256	57a2b91b1d396584578826e5dedb6a717e0142d8301ddcc681fb7b00cc9b7f79	JetBrainsMonoNF-ExtraBold.ttf
+  SHA256	1c29913c788ce9b66327326674b4884e90abbfce4bb6365e5ef276fbf5eee422	JetBrainsMonoNF-ExtraBold-Italic.ttf
+  SHA256	b7310f557f73fda56a9420e53ce728d2867a24e0d890159b841789ee66f222c1	JetBrainsMonoNF-Italic.ttf
+  SHA256	7d1569fc36b5030c1a7be8fc45163c675f2efbacb283bea8cc3077fed0d6891c	JetBrainsMonoNF-Medium.ttf
+  SHA256	2dcc38593f9fc5a049ef773f92a198445c228a420620d01988c183e94605e458	JetBrainsMonoNF-Medium-Italic.ttf
+  SHA256	75a499e8d499999e156aff1404a90a5712223d415d7b551ebffc52c80bc1b6f1	JetBrainsMonoNF-Regular.ttf
 
 ============================= JetBrainsMonoNF =============================

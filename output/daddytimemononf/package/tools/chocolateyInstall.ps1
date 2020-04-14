@@ -12,6 +12,7 @@ $packageArgs = @{
 
 Install-ChocolateyZIPPackage @packageArgs
 
+Install-ChocolateyFont "$toolsDir\otf\DaddyTimeMonoNF-Regular.ttf"
 
 Remove-Item "$toolsDir\otf" -Recurse -ErrorAction SilentlyContinue | Out-Null
 Remove-Item "$toolsDir\*.zip" -ErrorAction SilentlyContinue | Out-Null

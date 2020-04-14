@@ -37,11 +37,12 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 6a496723659e77258bf4252951c1f8f1de9b738a1f19bb466d5a9d7d9a035d5d
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	98b7910f710f5cad22f28b382530402cb5fa56fb470bed154cc64873368bfd21	IBMPlexMonoNF-Mono.ttf
 
 ============================= IBMPlexMonoNF =============================

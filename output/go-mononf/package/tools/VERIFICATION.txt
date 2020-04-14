@@ -37,11 +37,15 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 849c1c8623e1448db385b8ab01389fbe308771cf2733394e2afdbb49576b44ea
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	9f09009673539527134dd265f58d35519775d4951c0546b1cc34d4853f600d94	Go-MonoNF-Bold.ttf
+  SHA256	dd90b8b257e7d89a8ed733a190c05b7de02f209e59a9c8846b4f05f3ceee03bb	Go-MonoNF-Bold-Italic.ttf
+  SHA256	2956c3caeeb7f5099bb9c61f83aebd252d9135dc7ba064b0c6abdb117da7e4bb	Go-MonoNF-Italic.ttf
+  SHA256	bb082cd7c0277c291120fab3c2faf90968a9fdf48abacf769cae8cf77d0157ee	Go-MonoNF-Regular.ttf
 
 ============================= Go-MonoNF =============================

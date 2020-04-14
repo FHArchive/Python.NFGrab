@@ -37,11 +37,12 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 8077df5c0a5a42251eaa47b1b9ba48337d2bac22ea55d0db853331eb5235a8f3
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	c1630546abd0a3c2502eb81b0b8d46ea186de8196acf2f894106a804f581a379	CascadiaCodeNF-Regular.ttf
 
 ============================= CascadiaCodeNF =============================

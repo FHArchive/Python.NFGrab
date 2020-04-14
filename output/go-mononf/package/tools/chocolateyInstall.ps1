@@ -12,6 +12,10 @@ $packageArgs = @{
 
 Install-ChocolateyZIPPackage @packageArgs
 
+Install-ChocolateyFont "$toolsDir\otf\Go-MonoNF-Bold.ttf"
+Install-ChocolateyFont "$toolsDir\otf\Go-MonoNF-Bold-Italic.ttf"
+Install-ChocolateyFont "$toolsDir\otf\Go-MonoNF-Italic.ttf"
+Install-ChocolateyFont "$toolsDir\otf\Go-MonoNF-Regular.ttf"
 
 Remove-Item "$toolsDir\otf" -Recurse -ErrorAction SilentlyContinue | Out-Null
 Remove-Item "$toolsDir\*.zip" -ErrorAction SilentlyContinue | Out-Null

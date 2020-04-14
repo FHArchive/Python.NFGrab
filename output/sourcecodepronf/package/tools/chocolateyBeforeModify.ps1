@@ -1,0 +1,16 @@
+$ErrorActionPreference = 'Stop'
+
+Uninstall-ChocolateyFont "SourceCodeProNF-Black.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Black-Italic.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Bold.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Bold-Italic.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Extra-Light.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-ExtraLight-Italic.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Italic.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Light.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Light-Italic.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Medium.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Medium-Italic.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Regular.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Semibold.ttf"
+Uninstall-ChocolateyFont "SourceCodeProNF-Semibold-Italic.ttf"

@@ -37,11 +37,32 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+The SHA256 Hash is 30ca43d1745f420ebda57d56bb9087286d95df65c802fb51fa8e0fce0ed6340f
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
+  SHA256	6ba7a1fc44698b908432dafea02548572d03954326f14a9fc73c8a67bd06c19e	IosevkaNF-Bold.ttf
+  SHA256	046c99f60b5b6bf5147ff7e492d1c004cad4551d87e8f4059ed5e1a081830f0c	IosevkaNF-Bold-Italic.ttf
+  SHA256	4a4285939843f0e23a9a4f4fd25244e7c3d8d0b963c1b198e6ba376c52829934	IosevkaNF-Bold-Oblique.ttf
+  SHA256	125b0bb409f7dc5b05a3a17fd81922128ba5e5f7d02ef3bf1b89c436e0fff748	IosevkaNF-Extra-Light.ttf
+  SHA256	c64204ef62dc9d3168f14623aa392d5d41e7491e10ca570ed8e67bae69ebdac0	IosevkaNF-Extra-Light-Italic.ttf
+  SHA256	f681dfe5bc540d2723ac49237f744e8705d71c7373a4f9bb1ff60e6406b8fba4	IosevkaNF-Extra-Light-Oblique.ttf
+  SHA256	ab1d481ce908b698616a0818065c35ace86f1f8d7450d56afecc57ae8ea9a3c0	IosevkaNF-Heavy.ttf
+  SHA256	97b9d94271d34d5b6e0f97f76926763587418f46c1fce4bb905cb0859f3f8f55	IosevkaNF-Heavy-Italic.ttf
+  SHA256	04f72679df70ced8af642379fb038b7e0d57cf1e06c42ee0e9c7b8fe524c05ff	IosevkaNF-Heavy-Oblique.ttf
+  SHA256	a8fe2a9e9809af5f86c5bdc8dcfe4d4c740a7939c40a14e9fd0c4e6d627d1f41	IosevkaNF-Italic.ttf
+  SHA256	86686ee82610396f237c8f48b249d27de1904af85fcaa550a6dda9a8a2c0ebcb	IosevkaNF-Light.ttf
+  SHA256	4dee42a77a074fa6f1a3c2ec10c956f9ec7de3a5d008fe96d3f8638c8738575c	IosevkaNF-Light-Italic.ttf
+  SHA256	075f1423cff043a8dd4ada5faad6134da9306682ebfc410d39b2c84460355377	IosevkaNF-Light-Oblique.ttf
+  SHA256	881cda01e0d395879eae8b2a44e65e39c9f79897fe6f992d4336c8651bb38693	IosevkaNF-Medium.ttf
+  SHA256	2afbf55db33a4eeb4c35fc4efa2d97e1804ee9be973e4b08a464f12c58fb3b03	IosevkaNF-Medium-Italic.ttf
+  SHA256	0a0e96b8c13ffe46f9bd1d3007aadfb9502daebf1bc20d303642ca19556de4b9	IosevkaNF-Medium-Oblique.ttf
+  SHA256	df1c57f9b661bde1c76806178026218360261de1bfb2ba78a722187484f2f468	IosevkaNF-Oblique.ttf
+  SHA256	a047bf98b29f0acd381c6cc158477bf9feaccb78547a42b16dc644ed5a8f90b4	IosevkaNF-Regular.ttf
+  SHA256	74a558f8ea4766609f7dcb53b89442c757daf5866a05c25f4b60e8c130e02678	IosevkaNF-Thin.ttf
+  SHA256	7769cf452115b1448b54805cfa91226eace3161fa66a48ac3d77a9bd7ec4427f	IosevkaNF-Thin-Italic.ttf
+  SHA256	0595214f1779488a08f860f9358c33460063e385340728ce8dee482148f73125	IosevkaNF-Thin-Oblique.ttf
 
 ============================= IosevkaNF =============================
