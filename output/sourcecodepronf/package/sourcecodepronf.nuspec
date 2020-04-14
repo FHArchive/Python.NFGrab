@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>sourcecodepronf</id>
+		<version>2.1.0</version>
+		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/sourcecodepronf</packageSourceUrl>
+		<owners>FredHappyface</owners>
+		<title>SourceCodeProNF</title>
+		<authors>Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name &#x27;Source&#x27;. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries. ryanoasis</authors>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/SourceCodePro</projectUrl>
+		<copyright>Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name &#x27;Source&#x27;. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.</copyright>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/SourceCodePro/LICENSE.txt</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/sourcecodepronf/proj-icon.png</iconUrl>
+		<tags>nerd font programming powerline octicons awesome sourcecodepronf</tags>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/SourceCodePro/readme.md</docsUrl>
+		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/SourceCodePro</projectSourceUrl>
+		<summary># SourceCodeProNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).</summary>
+		<description>
+# SourceCodeProNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).
+
+# Source Code Pro
+
+Source Code Pro is a set of OpenType fonts that have been designed to work well
+in user interface (UI) environments. In addition to a functional OpenType font, this open
+source project provides all of the source files that were used to build this OpenType font
+by using the AFDKO makeotf tool.
+
+## Font installation instructions
+
+* [Mac OS X](http://support.apple.com/kb/HT2509)
+* [Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)
+* [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
+* Bower&lt;br/&gt;
+	`bower install git://github.com/adobe-fonts/source-code-pro.git#release`
+* npm 2.x&lt;br/&gt;
+	`npm install --fetch-only git://github.com/adobe-fonts/source-code-pro.git#release`
+* npm 3.x&lt;br/&gt;
+	`npm install git://github.com/adobe-fonts/source-code-pro.git#release`
+
+## Getting Involved
+
+Send suggestions for changes to the Source Code OpenType font project maintainer, [Paul D. Hunt](mailto:opensourcefonts@adobe.com?subject=[GitHub] Source Code Pro), for consideration.
+
+## Further information
+
+For information about the design and background of Source Code, please refer to the [official font readme file](http://www.adobe.com/products/type/font-information/source-code-pro-readme.html).
+
+## Why `Sauce` and not `Source`?
+
+What&#x27;s in a name? The reason for the name change is to comply with the SIL Open Font License (OFL), in partcular the [Reserved Font Name mechanism][SIL-RFN]
+
+Some fonts have parts of their name &quot;reserved&quot; per the [Reserved Font Name mechanism][SIL-RFN]:
+&gt; No Modified Version of the Font Software may use the Reserved Font
+&gt; Name(s) unless explicit written permission is granted by the corresponding
+&gt; Copyright Holder. This restriction only applies to the primary font name as
+&gt; presented to the users.
+
+- The main goals seem to be to: `Avoid collisions`, `Protect authors`, `Minimize support`, and `Encourage derivatives`
+
+See the [Reserved Font Name section][SIL-RFN] for additional information
+
+## Which font?
+
+### TL;DR
+
+* Pick your font family and then select from the `&#x27;complete&#x27;` directory.
+  * If you are on Windows pick a font with the `&#x27;Windows Compatible&#x27;` suffix.
+    * This includes specific tweaks to ensure the font works on Windows, in particular monospace identification and font name length limitations
+  * If you are limited to monospaced fonts (because of your terminal, etc) then pick a font with the `&#x27;Mono&#x27;` suffix.
+    * This denotes that the Nerd Font glyphs will be monospaced not necessarily t
+
+...
+		</description>
+		<dependencies>
+			<dependency id="chocolatey-font-helpers.extension" version="0.0.2" />
+		</dependencies>
+	</metadata>
+	<files>
+		<!-- this section controls what actually gets packaged into the Chocolatey package -->
+		<file src="tools\**" target="tools" />
+		<!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+	</files>
+</package>

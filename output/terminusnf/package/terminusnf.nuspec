@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>terminusnf</id>
+		<version>2.1.0</version>
+		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/terminusnf</packageSourceUrl>
+		<owners>FredHappyface</owners>
+		<title>TerminusNF</title>
+		<authors>Dimitar Toshkov Zhekov, ryanoasis</authors>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Terminus</projectUrl>
+		<copyright>Dimitar Toshkov Zhekov,</copyright>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/Terminus/LICENSE.txt</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/terminusnf/proj-icon.png</iconUrl>
+		<tags>nerd font programming powerline octicons awesome terminusnf</tags>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Terminus/font-info.md</docsUrl>
+		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Terminus</projectSourceUrl>
+		<summary># TerminusNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).</summary>
+		<description>
+# TerminusNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).
+
+Terminess Powerline
+===================
+
+Font creator
+
+:   Dimitar Zhekov
+
+Version
+
+:   media-fonts/terminus-font-4.36 with USE=X pcf psf ru-g
+
+Source
+
+:   &lt;http://terminus-font.sourceforge.net&gt;
+
+License
+
+:   SIL OPEN FONT LICENSE Version 1.1
+
+Patched by
+
+:   [Nikolay Pavlov](https://bitbucket.org/ZyX_I), [Carl X.
+    Su](https://github.com/bcbcarl)
+
+Terminus Font is a clean, fixed width bitmap font, designed for long (8
+and more hours per day) work with computers. Version 4.36 contains 856
+characters, covers about 120 language sets and supports
+ISO8859-1/2/5/7/9/13/15/16, Paratype-PT154/PT254, KOI8-R/U/E/F,
+Esperanto, many IBM, Windows and Macintosh code pages, as well as the
+IBM VGA, vt100 and xterm pseudographic characters.
+
+Terminess Powerline is derived from Terminus Font for Powerline users.
+The Powerline symbols is being made by Kim Silkebækken. The patch work
+is being undertaken by Nikolay Pavlov and Carl X. Su.
+
+Both the final font Truetype/OpenType files and the design files used to
+produce the font family are distributed under an open licence and you
+are expressly encouraged to experiment, modify, share and improve.
+
+Note: If you want to have patched font with different USE flags, use
+fontpatcher located at
+&lt;https://bitbucket.org/ZyX_I/bitmap-font-patcher&gt;, it is always using
+proper (manually adjusted) glyphs. Here are the variants controlled by
+USE flags (see font homepage for better explanations about what each USE
+flag does):
+
+## Why `Terminess` and not `Terminus`?
+
+What&#x27;s in a name? The reason for the name change is to comply with the SIL Open Font License (OFL), in partcular the [Reserved Font Name mechanism][SIL-RFN]
+
+Some fonts have parts of their name &quot;reserved&quot; per the [Reserved Font Name mechanism][SIL-RFN]:
+&gt; No Modified Version of the Font Software may use the Reserved Font
+&gt; Name(s) unless explicit written permission is granted by the corresponding
+&gt; Copyright Holder. This restriction only applies to the primary font name as
+&gt; presented to the users.
+
+- The main goals seem to be to: `Avoid collisions`, `Protect authors`, `Minimize support`, and `Encourage derivatives`
+
+See the [Reserved Font Name section][SIL-RFN] for additional information
+
+## Which font?
+
+### TL;DR
+
+* Pick your font family and then select from the `&#x27;complete&#x27;` directory.
+  * If you are on Windows pick a font with the `&#x27;Windows Compatible&#x27;` suffix.
+    * This includes specific tweaks to ensure the font works on Windows, in particular monospace identification and font name length limitations
+
+...
+		</description>
+		<dependencies>
+			<dependency id="chocolatey-font-helpers.extension" version="0.0.2" />
+		</dependencies>
+	</metadata>
+	<files>
+		<!-- this section controls what actually gets packaged into the Chocolatey package -->
+		<file src="tools\**" target="tools" />
+		<!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+	</files>
+</package>

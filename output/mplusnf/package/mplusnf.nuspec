@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>mplusnf</id>
+		<version>2.1.0</version>
+		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/mplusnf</packageSourceUrl>
+		<owners>FredHappyface</owners>
+		<title>MPlusNF</title>
+		<authors>[unknown author] ryanoasis</authors>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/MPlus</projectUrl>
+		<copyright>[unknown author]</copyright>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/MPlus/LICENSE_J</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/mplusnf/proj-icon.png</iconUrl>
+		<tags>nerd font programming powerline octicons awesome mplusnf</tags>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/MPlus/readme.md</docsUrl>
+		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/MPlus</projectSourceUrl>
+		<summary># MPlusNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).</summary>
+		<description>
+# MPlusNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).
+
+M+ FONTS                                Copyright (C) 2002-2017 M+ FONTS PROJECT
+
+-
+
+README_E
+
+
+
+
+M+ TESTFLIGHT
+
+The M+ OUTLINE FONTS are distributed with proportional Latin (4 variations), fixed-halfwidth Latin (3 variations) and fixed-fullwidth Japanese (2 Kana variations) character set. 7 weights from Thin to Black are included, but fixed-halfwidth Latin with 5 weights from Thin to Bold.
+
+
+PROPORTIONAL FONTS (proportional Latin and fixed-fullwidth Japanese)
+
+M+ 1P     mplus-1p-thin.ttf
+          mplus-1p-light.ttf
+          mplus-1p-regular.ttf
+          mplus-1p-medium.ttf
+          mplus-1p-bold.ttf
+          mplus-1p-heavy.ttf
+          mplus-1p-black.ttf
+          
+M+ 2P     mplus-2p-thin.ttf
+          mplus-2p-light.ttf
+          mplus-2p-regular.ttf
+          mplus-2p-medium.ttf
+          mplus-2p-bold.ttf
+          mplus-2p-heavy.ttf
+          mplus-2p-black.ttf
+          
+M+ 1C     mplus-1c-thin.ttf
+          mplus-1c-light.ttf
+          mplus-1c-regular.ttf
+          mplus-1c-medium.ttf
+          mplus-1c-bold.ttf
+          mplus-1c-heavy.ttf
+          mplus-1c-black.ttf
+          
+M+ 2C     mplus-2c-thin.ttf
+          mplus-2c-light.ttf
+          mplus-2c-regular.ttf
+          mplus-2c-medium.ttf
+          mplus-2c-bold.ttf
+          mplus-2c-heavy.ttf
+          mplus-2c-black.ttf
+
+
+FIXED-WIDTH FONTS (fixed-halfwidth Latin and fixed-fullwidth Japanese)
+
+M+ 1M     mplus-1m-thin.ttf
+          mplus-1m-light.ttf
+          mplus-1m-regular.ttf
+          mplus-1m-medium.ttf
+          mplus-1m-bold.ttf
+          
+M+ 2M     mplus-2m-thin.ttf
+          mplus-2m-light.ttf
+          mplus-2m-regular.ttf
+          mplus-2m-medium.ttf
+          mplus-2m-bold.ttf
+
+M+ 1MN    mplus-1mn-thin.ttf
+          mplus-1mn-light.ttf
+          mplus-1mn-regular.ttf
+          mplus-1mn-medium.ttf
+          mplus-1mn-bold.ttf
+
+          
+
+
+-
+
+http://mplus-fonts.osdn.jp
+
+## Which font?
+
+### TL;DR
+
+* Pick your font family and then select from the `&#x27;complete&#x27;` directory.
+  * If you are on Windows pick a font with the `&#x27;Windows Compatible&#x27;` suffix.
+    * This includes specific tweaks to ensure the font works on Windows, in particular monospace identification and font name length limitations
+  * If you are limited to monospaced fonts (because of your terminal, etc) then pick a font with the `&#x27;Mono&#x27;` suffix.
+    * This denotes that the Nerd Font glyphs will be monospaced not necessarily that the entire font will be monospaced
+
+### Ligatures
+
+By the *Nerd Font* policy, the variant wi
+
+...
+		</description>
+		<dependencies>
+			<dependency id="chocolatey-font-helpers.extension" version="0.0.2" />
+		</dependencies>
+	</metadata>
+	<files>
+		<!-- this section controls what actually gets packaged into the Chocolatey package -->
+		<file src="tools\**" target="tools" />
+		<!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+	</files>
+</package>

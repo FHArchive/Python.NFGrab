@@ -1,0 +1,47 @@
+============================= UbuntuMonoNF =============================
+
+Downloads the UbuntuMonoNF otf as a .zip and installs to system fonts
+courtesy of chocolatey-font-helpers.extension. Follow the step-by-step
+to verify the checksums
+
+Step 1:
+Download the zip file from
+https://github.com/FredHappyface/Choco.Packages/tree/master/ubuntumononf/package/tools.ubuntuMonoNF.zip
+
+Step 2:
+Extract the zip file and grab/ copy the otf directory
+
+RouteA or RouteB
+RouteA to verify the individual .otf files, RouteB to verify a zip file
+containing the otf/ directory
+
+RouteA
+Step 3:
+Open a powershell terminal and run
+```powershell
+Get-ChildItem | Get-FileHash | Export-Csv checksum.csv
+```
+
+Step 4:
+Open the csv (many forms of spreadsheet software can help with this. e.g.
+Microsoft Excel, LibreOffice Calc). The SHA256 will match those in the
+Font List below
+
+(Note that I have reordered the columns)
+
+
+RouteB
+Step 3:
+Zip the otf/ directory and run
+```powershell
+Get-FileHash [zip-name]
+```
+
+The SHA256 Hash is 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85
+
+
+------------------------------ Font List ------------------------------
+
+Algorithm	Hash	Font
+
+============================= UbuntuMonoNF =============================

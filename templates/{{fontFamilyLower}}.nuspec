@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>{{fontFamilyLower}}</id>
+		<version>{{nerdFontVersion}}</version>
+		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/{{fontFamilyLower}}</packageSourceUrl>
+		<owners>FredHappyface</owners>
+		<title>{{fontFamily}}</title>
+		<authors>{{author}} ryanoasis</authors>
+		<projectUrl>{{projectUrl}}</projectUrl>
+		<copyright>{{author}}</copyright>
+		<licenseUrl>{{licenseUrl}}</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/{{fontFamilyLower}}/proj-icon.png</iconUrl>
+		<tags>nerd font programming powerline octicons awesome {{fontFamilyLower}}</tags>
+		<docsUrl>{{docsUrl}}</docsUrl>
+		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
+		<projectSourceUrl>{{projectUrl}}</projectSourceUrl>
+		<summary>{{summary}}</summary>
+		<description>
+{{description}}
+		</description>
+		<dependencies>
+			<dependency id="chocolatey-font-helpers.extension" version="0.0.2" />
+		</dependencies>
+	</metadata>
+	<files>
+		<!-- this section controls what actually gets packaged into the Chocolatey package -->
+		<file src="tools\**" target="tools" />
+		<!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+	</files>
+</package>

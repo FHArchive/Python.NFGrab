@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>jetbrainsmononf</id>
+		<version>2.1.0</version>
+		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/jetbrainsmononf</packageSourceUrl>
+		<owners>FredHappyface</owners>
+		<title>JetBrainsMonoNF</title>
+		<authors>[unknown author] ryanoasis</authors>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/JetBrainsMono</projectUrl>
+		<copyright>[unknown author]</copyright>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/JetBrainsMono/LICENSE</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/jetbrainsmononf/proj-icon.png</iconUrl>
+		<tags>nerd font programming powerline octicons awesome jetbrainsmononf</tags>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/JetBrainsMono/readme.md</docsUrl>
+		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/JetBrainsMono</projectSourceUrl>
+		<summary># JetBrainsMonoNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).</summary>
+		<description>
+# JetBrainsMonoNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).
+
+[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
+# JetBrainsMono
+A typeface made for developers. \
+More about font features &amp; design can be found on [its page](https://jetbrains.com/mono/).
+
+# **Installation**
+
+### **In JetBrains IDEs**
+
+The most recent version of JetBrains Mono ships with your JetBrains IDE starting with v2019.3.
+
+Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Editor` → `Font`, and then select JetBrains Mono from the Font dropdown.
+
+### Another IDE or an older version of a JetBrains IDE
+
+1. [Download font](https://download.jetbrains.com/fonts/JetBrainsMono-1.0.0.zip?fromGitHub). 
+2. Unzip the archive and install the font:
+   - Mac. Select all font files in the folder and double-click them. Click the *&quot;Install Font&quot;* button.
+   - Windows. Select all font files in the folder, right-click any of them, then pick *&quot;Install&quot;* from the menu.
+   - Ubuntu. Open a terminal with `Ctrl`+`Alt`+`T` and run the following:
+   
+      ```
+      cd &lt;name_of_our_archive.zip&gt;
+      unzip &quot;\*.zip&quot; -d ${HOME}/.fonts
+      sudo fc-cache -f -v
+      ```
+3. Restart your IDE.
+4. Go to `Preferences/Settings` → `Editor` → `Font`, and pick JetBrains Mono from the Font dropdown.
+
+### **Visual Studio Code**
+
+* Follow the instructions above to step 3.
+* Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut `Ctrl`+, (`Cmd`+, on Mac).
+* In the *&quot;Font Family&quot;* input box type JetBrains Mono, replacing any content.
+* To enable ligatures turn on the checkbox in *&quot;Font ligatures&quot;*.
+
+#### **Manually editing settings.json**
+
+Visual Studio Code allows you to also edit the underlying settings.json config file. First open the settings editor as described above, then click the &quot;`{}`&quot; icon, at the top right, to open the *&quot;settings.json&quot;* file.
+
+Then paste the following lines and save the file.
+
+```
+&quot;editor.fontFamily&quot;: &quot;JetBrains Mono&quot;,
+&quot;editor.fontLigatures&quot;: true,
+```
+
+## Source files
+
+Can be found in the *&quot;Source&quot;* folder. To open them you will need FontLab 6 or higher.
+
+## License
+
+JetBrains Mono typeface is available under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0) and can be used free of charge, for both commercial and non-commercial purposes. You do not need to give credit to JetBrains, although we will appreciate it very much if you do.
+
+## Credits
+
+**Type designer**\
+Philipp Nurullin
+
+**Team lead**\
+Konstantin Bulenkov
+
+...
+		</description>
+		<dependencies>
+			<dependency id="chocolatey-font-helpers.extension" version="0.0.2" />
+		</dependencies>
+	</metadata>
+	<files>
+		<!-- this section controls what actually gets packaged into the Chocolatey package -->
+		<file src="tools\**" target="tools" />
+		<!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+	</files>
+</package>

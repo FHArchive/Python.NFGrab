@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>hacknf</id>
+		<version>2.1.0</version>
+		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/hacknf</packageSourceUrl>
+		<owners>FredHappyface</owners>
+		<title>HackNF</title>
+		<authors>[unknown author] ryanoasis</authors>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Hack</projectUrl>
+		<copyright>[unknown author]</copyright>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/Hack/LICENSE.md</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/hacknf/proj-icon.png</iconUrl>
+		<tags>nerd font programming powerline octicons awesome hacknf</tags>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Hack/readme.md</docsUrl>
+		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Hack</projectSourceUrl>
+		<summary># HackNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).</summary>
+		<description>
+# HackNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).
+
+
+# Hack
+
+[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)
+[![Build Status](https://semaphoreci.com/api/v1/sourcefoundry/hack/branches/master/shields_badge.svg)](https://semaphoreci.com/sourcefoundry/hack)
+[![Contributors](https://img.shields.io/badge/contributors-128-orange.svg?style=flat)](https://github.com/source-foundry/Hack/blob/master/docs/CONTRIBUTORS.md)
+[![Join the chat at https://gitter.im/source-foundry/Hack](https://badges.gitter.im/source-foundry/Hack.svg)](https://gitter.im/source-foundry/Hack)
+[![Github All Releases](https://img.shields.io/github/downloads/source-foundry/hack/total.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)
+[![](https://data.jsdelivr.com/v1/package/npm/hack-font/badge?style=rounded)](https://www.jsdelivr.com/package/npm/hack-font)
+
+Don&#x27;t like the development noise from the repository but want to keep up with changes? Check out our [gitter Hack channel](https://gitter.im/source-foundry/Hack).  Have a quick question that doesn&#x27;t require an issue report?  Drop by our [gitter Help channel](https://gitter.im/source-foundry/Help) and ask away.
+
+### A typeface designed for source code
+
+Hack is designed to be a workhorse typeface for source code. It has deep roots in the free, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp;amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The large x-height + wide aperture + low contrast design make it legible at commonly used source code text sizes with a sweet spot that runs in the 8 - 14 range.  The full set of changes to the upstream source are available in the [changelog](CHANGELOG.md).
+
+The project is in active development, and we welcome your input and contributions.  You may view our design objectives and instructions on how to contribute in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Frequently asked questions are answered in our [FAQ](FAQ.md).
+
+### Contents
+
+* [Features](#overview-of-features)
+* [Quick installation](#quick-installation)
+* [Package manager installation](#package-managers)
+* [Web font usage](#web-font-usage)
+* [Additional tools for font customization](#additional-tools-for-hack-font-customization)
+* [Resources](#resources)
+* [Contributing](#contributing)
+* [Build tools](#built-with)
+* [Acknowledgments](#acknowledgments)
+* [License](#license)
+
+
+### Specimen
+
+&lt;a href=&quot;http://source-foundry.github.io/Hack/font-specimen.html&quot;&gt;&lt;i
+
+...
+		</description>
+		<dependencies>
+			<dependency id="chocolatey-font-helpers.extension" version="0.0.2" />
+		</dependencies>
+	</metadata>
+	<files>
+		<!-- this section controls what actually gets packaged into the Chocolatey package -->
+		<file src="tools\**" target="tools" />
+		<!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+	</files>
+</package>

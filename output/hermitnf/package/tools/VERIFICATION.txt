@@ -1,0 +1,50 @@
+============================= HermitNF =============================
+
+Downloads the HermitNF otf as a .zip and installs to system fonts
+courtesy of chocolatey-font-helpers.extension. Follow the step-by-step
+to verify the checksums
+
+Step 1:
+Download the zip file from
+https://github.com/FredHappyface/Choco.Packages/tree/master/hermitnf/package/tools.hermitNF.zip
+
+Step 2:
+Extract the zip file and grab/ copy the otf directory
+
+RouteA or RouteB
+RouteA to verify the individual .otf files, RouteB to verify a zip file
+containing the otf/ directory
+
+RouteA
+Step 3:
+Open a powershell terminal and run
+```powershell
+Get-ChildItem | Get-FileHash | Export-Csv checksum.csv
+```
+
+Step 4:
+Open the csv (many forms of spreadsheet software can help with this. e.g.
+Microsoft Excel, LibreOffice Calc). The SHA256 will match those in the
+Font List below
+
+(Note that I have reordered the columns)
+
+
+RouteB
+Step 3:
+Zip the otf/ directory and run
+```powershell
+Get-FileHash [zip-name]
+```
+
+The SHA256 Hash is 8ced00db4910ce241f2b693a1fc545f7769a2fd16e37470b454db1bdbd47582f
+
+
+------------------------------ Font List ------------------------------
+
+Algorithm	Hash	Font
+  SHA256	560f0d7779e94cbabfff20cd0c059eecc100bccad78812d77d612bb2678230f0	HermitNF-Bold.otf
+  SHA256	6b9fec218d4ce6e0bb56f7b0b4556aabb39a6d4ff9fc2211f4b9b7021bddcdf8	HermitNF-Light.otf
+  SHA256	77d378f7d67304f77d5882e9d302c9c977e32adcb72283ca114c77d6d632890d	HermitNF-Medium.otf
+
+============================= HermitNF =============================

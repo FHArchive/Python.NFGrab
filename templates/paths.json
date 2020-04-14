@@ -1,0 +1,18 @@
+{
+	"nerdFontVersion": "2.1.0",
+	"commitid": "7f344cee594c7b9bdc3acddb269749566681f1dd",
+	"commitdate": "Apr 10, 2020",
+	"url": {
+		"patched": "https://github.com/ryanoasis/nerd-fonts/tree/{{commitid}}/patched-fonts",
+		"unpatched": "https://github.com/ryanoasis/nerd-fonts/tree/{{commitid}}/src/unpatched-fonts"
+	},
+	"file": {
+		"patched": "nerd-fonts/patched-fonts",
+		"unpatched": "nerd-fonts//src/unpatched-fonts"
+	},
+	"package": {
+		"licenseUrl": "{{unpatched}}/{{font}}/LICENSE.txt",
+		"projectUrl": "{{patched}}/{{font}}",
+		"docsUrl": "{{patched}}/{{font}}/readme.md"
+	}
+}

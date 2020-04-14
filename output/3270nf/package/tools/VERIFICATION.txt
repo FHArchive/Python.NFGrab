@@ -1,0 +1,50 @@
+============================= 3270NF =============================
+
+Downloads the 3270NF otf as a .zip and installs to system fonts
+courtesy of chocolatey-font-helpers.extension. Follow the step-by-step
+to verify the checksums
+
+Step 1:
+Download the zip file from
+https://github.com/FredHappyface/Choco.Packages/tree/master/3270nf/package/tools.3270NF.zip
+
+Step 2:
+Extract the zip file and grab/ copy the otf directory
+
+RouteA or RouteB
+RouteA to verify the individual .otf files, RouteB to verify a zip file
+containing the otf/ directory
+
+RouteA
+Step 3:
+Open a powershell terminal and run
+```powershell
+Get-ChildItem | Get-FileHash | Export-Csv checksum.csv
+```
+
+Step 4:
+Open the csv (many forms of spreadsheet software can help with this. e.g.
+Microsoft Excel, LibreOffice Calc). The SHA256 will match those in the
+Font List below
+
+(Note that I have reordered the columns)
+
+
+RouteB
+Step 3:
+Zip the otf/ directory and run
+```powershell
+Get-FileHash [zip-name]
+```
+
+The SHA256 Hash is 13b842294af381226aaa6f9785e74c405489af981172abb60b89727fe257243b
+
+
+------------------------------ Font List ------------------------------
+
+Algorithm	Hash	Font
+  SHA256	c70e7813cbcf80b02b3e324985039ce42253655710c111534e958e4693468c1f	3270NF-Medium.otf
+  SHA256	8a7ea4ad756da5b89f041ce6fd951dab1f21d8d5f20a581caee243eba1a1cc81	3270NF-Narrow.otf
+  SHA256	37c73184b3684e50f14315d6fe0625d29aa3e29c3b12e45fc420dad1a2428ef0	3270NF-Semi-Narrow.otf
+
+============================= 3270NF =============================
