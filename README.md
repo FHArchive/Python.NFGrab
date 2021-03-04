@@ -1,11 +1,12 @@
-[![Github top language](https://img.shields.io/github/languages/top/FredHappyface/Python.NFGrab.svg?style=for-the-badge)](../../)
-[![Codacy grade](https://img.shields.io/codacy/grade/[codacy-proj-id].svg?style=for-the-badge)](https://www.codacy.com/manual/FredHappyface/Python.NFGrab)
+[![GitHub top language](https://img.shields.io/github/languages/top/FredHappyface/Python.NFGrab.svg?style=for-the-badge)](../../)
 [![Repository size](https://img.shields.io/github/repo-size/FredHappyface/Python.NFGrab.svg?style=for-the-badge)](../../)
 [![Issues](https://img.shields.io/github/issues/FredHappyface/Python.NFGrab.svg?style=for-the-badge)](../../issues)
 [![License](https://img.shields.io/github/license/FredHappyface/Python.NFGrab.svg?style=for-the-badge)](/LICENSE.md)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/FredHappyface/Python.NFGrab.svg?style=for-the-badge)](../../commits/master)
 [![Last commit](https://img.shields.io/github/last-commit/FredHappyface/Python.NFGrab.svg?style=for-the-badge)](../../commits/master)
 
+
+<!-- omit in toc -->
 # Python.NFGrab
 
 Generate Chocolatey https://chocolatey.org/ packages from nerd fonts.
@@ -14,8 +15,8 @@ Generate Chocolatey https://chocolatey.org/ packages from nerd fonts.
 - One excellent part of Linux (at least in my opinion) is the inclusion of a
 package manager such as apt, yum etc.
 - Chocolatey is commonly used for package management in Windows.
-- Nerd fonts is already available on the AUR and I thought this would make for a
-relatively useful and fun project
+- Nerd fonts are already available on the AUR and I thought this would make for a
+relatively useful and fun project.
 
 ## Build
 1. Clone nerd fonts
@@ -28,10 +29,40 @@ relatively useful and fun project
 5. Run `choco pack`
 6. Publish to Chocolatey
 
+<!-- omit in toc -->
+## Table of Contents
+- [Rationale](#rationale)
+- [Build](#build)
+- [Language information](#language-information)
+	- [Built for](#built-for)
+- [Install Python on Windows](#install-python-on-windows)
+	- [Chocolatey](#chocolatey)
+	- [Download](#download)
+- [Install Python on Linux](#install-python-on-linux)
+	- [Apt](#apt)
+- [How to run](#how-to-run)
+	- [With VSCode](#with-vscode)
+	- [From the Terminal](#from-the-terminal)
+- [Download Project](#download-project)
+	- [Clone](#clone)
+		- [Using The Command Line](#using-the-command-line)
+		- [Using GitHub Desktop](#using-github-desktop)
+	- [Download Zip File](#download-zip-file)
+- [Community Files](#community-files)
+	- [Licence](#licence)
+	- [Changelog](#changelog)
+	- [Code of Conduct](#code-of-conduct)
+	- [Contributing](#contributing)
+	- [Security](#security)
+	- [Support](#support)
+	- [Rationale](#rationale-1)
+
+
+
 ## Language information
 ### Built for
 This program has been written for Python 3 and has been tested with
-Python version 3.8.0 <https://www.python.org/downloads/release/python-380/>.
+Python version 3.9.0 <https://www.python.org/downloads/release/python-380/>.
 
 ## Install Python on Windows
 ### Chocolatey
@@ -45,21 +76,21 @@ version.
 ## Install Python on Linux
 ### Apt
 ```bash
-sudo apt install python3.8
+sudo apt install python3.9
 ```
 
 ## How to run
 ### With VSCode
 1. Open the .py file in vscode
-2. Ensure a python 3.8 interpreter is selected (Ctrl+Shift+P > Python:Select
-Interpreter > Python 3.8)
+2. Ensure a python 3.9 interpreter is selected (Ctrl+Shift+P > Python:Select
+Interpreter > Python 3.9)
 3. Run by pressing Ctrl+F5 (if you are prompted to install any modules, accept)
 ### From the Terminal
 ```bash
 ./[file].py
 ```
 
-## Download
+## Download Project
 ### Clone
 #### Using The Command Line
 1. Press the Clone or download button in the top right
@@ -88,7 +119,6 @@ More information can be found at
 2. Extract the zip archive
 3. Copy/ move to the desired location
 
-
 ## Community Files
 ### Licence
 MIT License
@@ -99,14 +129,31 @@ Copyright (c) FredHappyface
 See the [Changelog](/CHANGELOG.md) for more information.
 
 ### Code of Conduct
-In the interest of fostering an open and welcoming environment, we
-as contributors and maintainers pledge to make participation in our
-project and our community a harassment-free experience for everyone.
-Please see the
-[Code of Conduct](https://github.com/FredHappyface/.github/blob/master/CODE_OF_CONDUCT.md) for more information.
+Online communities include people from many backgrounds. The *Project*
+contributors are committed to providing a friendly, safe and welcoming
+environment for all. Please see the
+[Code of Conduct](https://github.com/FredHappyface/.github/blob/master/CODE_OF_CONDUCT.md)
+ for more information.
 
 ### Contributing
-Contributions are welcome, please see the [Contributing Guidelines](https://github.com/FredHappyface/.github/blob/master/CONTRIBUTING.md) for more information.
+Contributions are welcome, please see the
+[Contributing Guidelines](https://github.com/FredHappyface/.github/blob/master/CONTRIBUTING.md)
+for more information.
 
 ### Security
-Thank you for improving the security of the project, please see the [Security Policy](https://github.com/FredHappyface/.github/blob/master/SECURITY.md) for more information.
+Thank you for improving the security of the project, please see the
+[Security Policy](https://github.com/FredHappyface/.github/blob/master/SECURITY.md)
+for more information.
+
+### Support
+Thank you for using this project, I hope it is of use to you. Please be aware that
+those involved with the project often do so for fun along with other commitments
+(such as work, family, etc). Please see the
+[Support Policy](https://github.com/FredHappyface/.github/blob/master/SUPPORT.md)
+for more information.
+
+### Rationale
+The rationale acts as a guide to various processes regarding projects such as
+the versioning scheme and the programming styles used. Please see the
+[Rationale](https://github.com/FredHappyface/.github/blob/master/RATIONALE.md)
+for more information.

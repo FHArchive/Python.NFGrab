@@ -8,15 +8,15 @@
 		<owners>FredHappyface</owners>
 		<title>HeavyDataNF</title>
 		<authors>[unknown author] ryanoasis</authors>
-		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/HeavyData</projectUrl>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/HeavyData</projectUrl>
 		<copyright>[unknown author]</copyright>
-		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/HeavyData/Vic Fieger License.txt</licenseUrl>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/src/unpatched-fonts/HeavyData/Vic Fieger License.txt</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/heavydatanf/proj-icon.png</iconUrl>
 		<tags>nerd font programming powerline octicons awesome heavydatanf</tags>
-		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/HeavyData/readme.md</docsUrl>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/HeavyData/readme.md</docsUrl>
 		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
-		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/HeavyData</projectSourceUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/HeavyData</projectSourceUrl>
 		<summary># HeavyDataNF
 
 Nerd Fonts patches developer targeted fonts with a high number of glyphs

@@ -8,15 +8,15 @@
 		<owners>FredHappyface</owners>
 		<title>IBMPlexMonoNF</title>
 		<authors>IBM Corp. with Reserved Font Name &quot;Plex&quot; ryanoasis</authors>
-		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/IBMPlexMono</projectUrl>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/IBMPlexMono</projectUrl>
 		<copyright>IBM Corp. with Reserved Font Name &quot;Plex&quot;</copyright>
-		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/IBMPlexMono/LICENSE.txt</licenseUrl>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/src/unpatched-fonts/IBMPlexMono/LICENSE.txt</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/ibmplexmononf/proj-icon.png</iconUrl>
 		<tags>nerd font programming powerline octicons awesome ibmplexmononf</tags>
-		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/IBMPlexMono/readme.md</docsUrl>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/IBMPlexMono/readme.md</docsUrl>
 		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
-		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/IBMPlexMono</projectSourceUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/IBMPlexMono</projectSourceUrl>
 		<summary># IBMPlexMonoNF
 
 Nerd Fonts patches developer targeted fonts with a high number of glyphs

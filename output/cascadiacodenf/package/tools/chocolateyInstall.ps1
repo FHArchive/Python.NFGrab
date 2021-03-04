@@ -12,7 +12,12 @@ $packageArgs = @{
 
 Install-ChocolateyZIPPackage @packageArgs
 
-Install-ChocolateyFont "$toolsDir\otf\CascadiaCodeNF-Regular.ttf"
+Install-ChocolateyFont "$toolsDir\otf\CascadiaCodeNF-Bold.otf"
+Install-ChocolateyFont "$toolsDir\otf\CascadiaCodeNF-ExtraLight.otf"
+Install-ChocolateyFont "$toolsDir\otf\CascadiaCodeNF-Light.otf"
+Install-ChocolateyFont "$toolsDir\otf\CascadiaCodeNF-Regular.otf"
+Install-ChocolateyFont "$toolsDir\otf\CascadiaCodeNF-SemiBold.otf"
+Install-ChocolateyFont "$toolsDir\otf\CascadiaCodeNF-SemiLight.otf"
 
 Remove-Item "$toolsDir\otf" -Recurse -ErrorAction SilentlyContinue | Out-Null
 Remove-Item "$toolsDir\*.zip" -ErrorAction SilentlyContinue | Out-Null

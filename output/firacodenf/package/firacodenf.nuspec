@@ -8,15 +8,15 @@
 		<owners>FredHappyface</owners>
 		<title>FiraCodeNF</title>
 		<authors>The Fira Code Project Authors (https://github.com/tonsky/FiraCode) ryanoasis</authors>
-		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/FiraCode</projectUrl>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/FiraCode</projectUrl>
 		<copyright>The Fira Code Project Authors (https://github.com/tonsky/FiraCode)</copyright>
-		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/FiraCode/LICENSE</licenseUrl>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/src/unpatched-fonts/FiraCode/LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/firacodenf/proj-icon.png</iconUrl>
 		<tags>nerd font programming powerline octicons awesome firacodenf</tags>
-		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/FiraCode/readme.md</docsUrl>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/FiraCode/readme.md</docsUrl>
 		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
-		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/FiraCode</projectSourceUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/FiraCode</projectSourceUrl>
 		<summary># FiraCodeNF
 
 Nerd Fonts patches developer targeted fonts with a high number of glyphs
@@ -37,9 +37,9 @@ Nerd Fonts patches developer targeted fonts with a high number of glyphs
 [Octicons](https://github.com/primer/octicons), and
 [others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).
 
-## Fira Code: monospaced font with programming ligatures
+## Fira Code: free monospaced font with programming ligatures
 
-&lt;img src=&quot;./showcases/fira_code_logo.svg&quot;&gt;
+&lt;img src=&quot;./extras/logo.svg&quot;&gt;
 
 ### Problem
 
@@ -47,70 +47,41 @@ Programmers use a lot of symbols, often encoded with several characters. For the
 
 ### Solution
 
-#### [Download v.2](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting) · [News &amp; updates](https://twitter.com/FiraCode)
+Fira Code is a free monospaced font containing ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
 
-&lt;a href=&quot;https://patreon.com/tonsky&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;./fira_code_patreon.png&quot;&gt;&lt;/a&gt;
+### Download &amp; Install
 
-Fira Code is an extension of the Fira Mono font containing a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
+&lt;a href=&quot;https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip&quot;&gt;&lt;img src=&quot;./extras/download.png&quot; width=&quot;520&quot; height=&quot;130&quot;&gt;&lt;/a&gt;
 
-&lt;img src=&quot;./showcases/all_ligatures.png&quot;&gt;
+Then:
 
-### Code examples
+- &lt;a href=&quot;https://github.com/tonsky/FiraCode/wiki&quot;&gt;How to Install&lt;/a&gt;
+- &lt;a href=&quot;https://github.com/tonsky/FiraCode/wiki#troubleshooting&quot;&gt;Troubleshooting&lt;/a&gt;
+- &lt;a href=&quot;https://twitter.com/FiraCode&quot;&gt;News &amp; Updates&lt;/a&gt;
 
-Ruby:
+### Support
 
-&lt;img src=&quot;./showcases/ruby.png&quot;&gt;
+&lt;a href=&quot;https://github.com/sponsors/tonsky&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;./extras/sponsor.png&quot;&gt;&lt;/a&gt;
 
-JavaScript:
+Fira Code is a personal, free-time project with no funding and huge [feature request backlog](https://github.com/tonsky/FiraCode/issues). If you love it, consider supporting its development via [GitHub Sponsors](https://github.com/sponsors/tonsky) or [Patreon](https://patreon.com/tonsky). Any help counts!
 
-&lt;img src=&quot;./showcases/javascript.png&quot;&gt;
+### What’s in the box?
 
-PHP:
+Left: ligatures as rendered in Fira Code. Right: same character sequences without ligatures.
 
-&lt;img src=&quot;./showcases/php.png&quot;&gt;
+&lt;img src=&quot;./extras/ligatures.png&quot; width=&quot;754&quot; height=&quot;1326&quot;&gt;
 
-Erlang:
+Fira Code comes with huge variety of arrows. Even better: you can make them as long as you like and combine start/middle/end fragments however you want!
 
-&lt;img src=&quot;./showcases/erlang.png&quot;&gt;
+&lt;img src=&quot;./extras/arrows.png&quot; width=&quot;754&quot; height=&quot;799&quot;&gt;
 
-Elixir:
+Fira Code is not only about ligatures. Some fine-tuning is done for punctuation and frequent letter pairs.
 
-&lt;img src=&quot;/showcases/elixir.png&quot;&gt;
+&lt;img src=&quot;./extras/typographics.png&quot; width=&quot;754&quot; height=&quot;649&quot;&gt;
 
-Go:
+Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable.](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
 
-&lt;img src=&quot;./showcases/go.png&quot;&gt;
-
-LiveScript:
-
-&lt;img src=&quot;./showcases/livescript.png&quot;&gt;
-
-Clojure:
-
-&lt;img src=&quot;./showcases/clojure.png&quot;&gt;
-
-Swift:
-
-&lt;img src=&quot;./showcases/swift.png&quot;&gt;
-
-Stylistic sets:
-
-See [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
-
-&lt;img src=&quot;./showcases/stylistic_sets.png&quot;&gt;
-
-
-### Terminal support
-
-| Works              | Doesn’t work       |
-| ------------------ | ------------------ |
-| **Butterfly**      | **Alacritty**      |
-| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **Windows Console (conhost.exe)** |
-| **Hyper.app**      | **Cmder**          |
-| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **ConEmu** |
-| **Kitty**          | **GNOME Terminal** |
-| **Konsole**        | **mate-terminal**  | 
-| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/
+&lt;img src=&quot;./extras/stylistic_sets.png&quot; width=&quot;754&quot; height=&quot;391
 
 ...
 		</description>

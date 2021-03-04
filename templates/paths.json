@@ -1,14 +1,14 @@
 {
 	"nerdFontVersion": "2.1.0",
-	"commitid": "7f344cee594c7b9bdc3acddb269749566681f1dd",
-	"commitdate": "Apr 10, 2020",
+	"commitid": "ac5a5f0b591170dbecfcd503aa22a564cd88be1d",
+	"commitdate": "Feb 2, 2021",
 	"url": {
 		"patched": "https://github.com/ryanoasis/nerd-fonts/tree/{{commitid}}/patched-fonts",
 		"unpatched": "https://github.com/ryanoasis/nerd-fonts/tree/{{commitid}}/src/unpatched-fonts"
 	},
 	"file": {
 		"patched": "nerd-fonts/patched-fonts",
-		"unpatched": "nerd-fonts//src/unpatched-fonts"
+		"unpatched": "nerd-fonts/src/unpatched-fonts"
 	},
 	"package": {
 		"licenseUrl": "{{unpatched}}/{{font}}/LICENSE.txt",

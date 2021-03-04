@@ -1,0 +1,56 @@
+============================= OpenDyslexicNF =============================
+
+Downloads the OpenDyslexicNF otf as a .zip and installs to system fonts
+courtesy of chocolatey-font-helpers.extension. Follow the step-by-step
+to verify the checksums
+
+Step 1:
+Download the zip file from
+https://github.com/FredHappyface/Choco.Packages/tree/master/opendyslexicnf/package/tools.openDyslexicNF.zip
+
+Step 2:
+Extract the zip file and grab/ copy the otf directory
+
+RouteA or RouteB
+RouteA to verify the individual .otf files, RouteB to verify a zip file
+containing the otf/ directory
+
+RouteA
+Step 3:
+Open a powershell terminal and run
+```powershell
+Get-ChildItem | Get-FileHash | Export-Csv checksum.csv
+```
+
+Step 4:
+Open the csv (many forms of spreadsheet software can help with this. e.g.
+Microsoft Excel, LibreOffice Calc). The SHA256 will match those in the
+Font List below
+
+(Note that I have reordered the columns)
+
+
+RouteB
+Step 3:
+Zip the otf/ directory and run
+```powershell
+Get-FileHash [zip-name]
+```
+
+The SHA256 Hash is 544ec9e2e0c9886df07c4e70cf26efb2433d2d3ab05ae35af1349027becc4ce9
+
+
+------------------------------ Font List ------------------------------
+
+Algorithm	Hash	Font
+  SHA256	71e72cf65ec93aafdb18a360c9cb9911f23a6ab780c4fa31554be6bfe5e8812f	OpenDyslexicNF-Alta-Bold.otf
+  SHA256	b9b5445f223802e2a81f2257d075760a3b0a60013d1d44d4decb8b41d0239a3c	OpenDyslexicNF-Alta-Bold-Italic.otf
+  SHA256	cfa8311c5da5875c9b45156eaef7be4e53f194594bce104caaff301254d2da78	OpenDyslexicNF-Alta-Italic.otf
+  SHA256	a46c95db34d5cb8f7392da822ab5bb3709840850846ceb3aa5b22bc67c6c81df	OpenDyslexicNF-Alta-Regular.otf
+  SHA256	65c3e0cceddbe6c38598ac670d34e671de67cfb3c77879887cbad92fd91ef73e	OpenDyslexicNF-Bold.otf
+  SHA256	fffc94fae6377f060f1bc7414932764cd845c8ac6770e3f73380623b2ed6e471	OpenDyslexicNF-Bold-Italic.otf
+  SHA256	cc7e712be0c7a505d263127603c11652818d196a584a007ba390eb3644a7844d	OpenDyslexicNF-Italic.otf
+  SHA256	4b07322897f36f91927464b32df78a572230a9f603892c81a7820a6254df3230	OpenDyslexicNF-Mono-Regular.otf
+  SHA256	e0081746944834a8acbbdcc7a9cabcfdd54e58d215d9d72046b21fc21840654b	OpenDyslexicNF-Regular.otf
+
+============================= OpenDyslexicNF =============================

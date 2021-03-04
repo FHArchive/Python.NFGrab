@@ -8,15 +8,15 @@
 		<owners>FredHappyface</owners>
 		<title>HermitNF</title>
 		<authors>Pablo Caro &lt;me AT pcaro DOT es&gt; - http://pcaro.es/ ryanoasis</authors>
-		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Hermit</projectUrl>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/Hermit</projectUrl>
 		<copyright>Pablo Caro &lt;me AT pcaro DOT es&gt; - http://pcaro.es/</copyright>
-		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/Hermit/LICENSE</licenseUrl>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/src/unpatched-fonts/Hermit/LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/hermitnf/proj-icon.png</iconUrl>
 		<tags>nerd font programming powerline octicons awesome hermitnf</tags>
-		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Hermit/readme.md</docsUrl>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/Hermit/readme.md</docsUrl>
 		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
-		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Hermit</projectSourceUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/Hermit</projectSourceUrl>
 		<summary># HermitNF
 
 Nerd Fonts patches developer targeted fonts with a high number of glyphs

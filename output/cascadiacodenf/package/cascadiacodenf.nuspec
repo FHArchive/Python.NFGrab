@@ -8,15 +8,15 @@
 		<owners>FredHappyface</owners>
 		<title>CascadiaCodeNF</title>
 		<authors>- Present, Microsoft Corporation, ryanoasis</authors>
-		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/CascadiaCode</projectUrl>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/CascadiaCode</projectUrl>
 		<copyright>- Present, Microsoft Corporation,</copyright>
-		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/CascadiaCode/LICENSE</licenseUrl>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/src/unpatched-fonts/CascadiaCode/LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/cascadiacodenf/proj-icon.png</iconUrl>
 		<tags>nerd font programming powerline octicons awesome cascadiacodenf</tags>
-		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/CascadiaCode/readme.md</docsUrl>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/CascadiaCode/readme.md</docsUrl>
 		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
-		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/CascadiaCode</projectSourceUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/CascadiaCode</projectSourceUrl>
 		<summary># CascadiaCodeNF
 
 Nerd Fonts patches developer targeted fonts with a high number of glyphs
@@ -37,8 +37,8 @@ Nerd Fonts patches developer targeted fonts with a high number of glyphs
 [Octicons](https://github.com/primer/octicons), and
 [others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).
 
-Cascdia Code
-============
+Cascadia Code
+=============
 
 Font creator
 
@@ -95,7 +95,7 @@ Once you narrow down your font choice of family (`Droid Sans`, `Inconsolata`, et
    * This contains a list of _all permutations_ of the various glyphs. E.g. You want the font with only [Octicons][octicons] or you want the font with just [Font Awesome][font-awesome] and [Devicons][vorillaz-devicons]. The goal is to provide every combination possible in this folder.
 
 
-For more information see: [The FAQ](https://github.com/ryanoasis/nerd-fo
+For more information see: [The FAQ](https://github.com/ryanoasis/nerd-
 
 ...
 		</description>

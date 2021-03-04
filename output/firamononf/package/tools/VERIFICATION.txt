@@ -37,7 +37,7 @@ Zip the otf/ directory and run
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 33ee425e40d6dcf4bc033251cc372d7a45d472f094b45039902fb1781ed11bf0
+The SHA256 Hash is 65c65d14b73123480e0aa0bdfc8d9cd7adfc884bb4eac9a8d4288dd242d34590
 
 
 ------------------------------ Font List ------------------------------

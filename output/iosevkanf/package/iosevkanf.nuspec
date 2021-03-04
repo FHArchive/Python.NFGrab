@@ -8,15 +8,15 @@
 		<owners>FredHappyface</owners>
 		<title>IosevkaNF</title>
 		<authors>[unknown author] ryanoasis</authors>
-		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Iosevka</projectUrl>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/Iosevka</projectUrl>
 		<copyright>[unknown author]</copyright>
-		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/Iosevka/LICENSE.md</licenseUrl>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/src/unpatched-fonts/Iosevka/LICENSE.md</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/iosevkanf/proj-icon.png</iconUrl>
 		<tags>nerd font programming powerline octicons awesome iosevkanf</tags>
-		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Iosevka/readme.md</docsUrl>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/Iosevka/readme.md</docsUrl>
 		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
-		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Iosevka</projectSourceUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/Iosevka</projectSourceUrl>
 		<summary># IosevkaNF
 
 Nerd Fonts patches developer targeted fonts with a high number of glyphs
@@ -49,7 +49,7 @@ Quit your editor/program. Unzip and open the folder.
 
 * **[Instructions for Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)**
 * **[Instructions for macOS](http://support.apple.com/kb/HT2509)**
-  * Standard distribution in Homebrew: `brew tap caskroom/fonts &amp;&amp; brew cask install font-iosevka` (May be outdated).
+  * Standard distribution in Homebrew: `brew tap homebrew/cask-fonts &amp;&amp; brew cask install font-iosevka` (May be outdated).
   * Customizable install using Homebrew: see [robertgzr/homebrew-tap](https://github.com/robertgzr/homebrew-tap).
 * **Linux** : Copy the TTF files to your fonts directory → Run `sudo fc-cache`. 
   - Arch Linux users can install the font from the AUR [here](https://aur.archlinux.org/packages/ttf-iosevka) using an AUR wrapper or by doing it manually. [All variants](https://aur.archlinux.org/packages/?O=0&amp;SeB=nd&amp;K=ttf-iosevka&amp;SB=n&amp;SO=a&amp;PP=50&amp;do_Search=Go).
@@ -78,7 +78,7 @@ Iosevka supports accessing all letter variants using OpenType features.
 
 Iosevka’s default ligation set is assigned to `calt` feature, though not all of them are enabled by default.
 
-Iosev
+
 
 ...
 		</description>

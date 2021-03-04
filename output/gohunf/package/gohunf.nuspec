@@ -8,15 +8,15 @@
 		<owners>FredHappyface</owners>
 		<title>GohuNF</title>
 		<authors>[unknown author] ryanoasis</authors>
-		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Gohu</projectUrl>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/Gohu</projectUrl>
 		<copyright>[unknown author]</copyright>
-		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/src/unpatched-fonts/Gohu/COPYING-LICENSE</licenseUrl>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/src/unpatched-fonts/Gohu/COPYING-LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/gohunf/proj-icon.png</iconUrl>
 		<tags>nerd font programming powerline octicons awesome gohunf</tags>
-		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Gohu/readme.md</docsUrl>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/Gohu/readme.md</docsUrl>
 		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
-		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/7f344cee594c7b9bdc3acddb269749566681f1dd/patched-fonts/Gohu</projectSourceUrl>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/Gohu</projectSourceUrl>
 		<summary># GohuNF
 
 Nerd Fonts patches developer targeted fonts with a high number of glyphs
@@ -44,7 +44,7 @@ A font for programming and terminal use.
 
 TrueType automatically traced, with available bitmaps in heights of 11 and 14 pixels.
 
-Copyright 2010 by Hugo Chargois (http://font.gohu.eu)
+Copyright 2010 by Hugo Chargois (https://font.gohu.org)
 
 Converted by Guilherme Maeda (github.com/koemaeda)
 
@@ -83,7 +83,7 @@ Once you narrow down your font choice of family (`Droid Sans`, `Inconsolata`, et
 
  * patch your own variations with the various options provided by the font patcher (see each font&#x27;s readme for full list of combinations available)
    * This is the option you want if the font you use is _not_ already included or you want maximum control of what&#x27;s included
-   * This contains a list of _all permutations_ of the various glyphs. E.g. You want the font with only [Octicons][octicons] or you want the font with just [Font Awesome][font-awesome] and [Devico
+   * This contains a list of _all permutations_ of the various glyphs. E.g. You want the font with only [Octicons][octicons] or you want the font with just [Font Awe
 
 ...
 		</description>
