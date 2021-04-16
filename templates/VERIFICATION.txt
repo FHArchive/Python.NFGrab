@@ -6,7 +6,7 @@ to verify the checksums
 
 Step 1:
 Download the zip file from
-https://github.com/FredHappyface/Choco.Packages/tree/master/{{fontFamilyLower}}/package/tools.{{fontFamilyCamel}}.zip
+https://github.com/FredHappyface/Choco.Packages/tree/master/{{fontFamilyLower}}/package/tools/{{fontFamilyCamel}}.zip
 
 Step 2:
 Extract the zip file and grab/ copy the otf directory

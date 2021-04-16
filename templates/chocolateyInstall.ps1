@@ -1,16 +1,8 @@
 $ErrorActionPreference = 'Stop'
-$packageName = '{{fontFamilyLower}}'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = "$toolsDir\{{fontFamilyCamel}}.zip"
 
-$packageArgs = @{
-	packageName   = $packageName
-	unzipLocation = $toolsDir
-	fileType      = 'ZIP'
-	url           = $url
-}
-
-Install-ChocolateyZIPPackage @packageArgs
+Get-ChocolateyUnzip -FileFullPath $url -Destination $toolsDir
 
 {{ #fontList}}
 Install-ChocolateyFont "$toolsDir\otf\{{fileName}}"
