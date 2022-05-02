@@ -1,7 +1,7 @@
 {
 	"nerdFontVersion": "2.1.0",
-	"commitid": "ac5a5f0b591170dbecfcd503aa22a564cd88be1d",
-	"commitdate": "Feb 2, 2021",
+	"commitid": "fef67f39a69314637ae0923dfdd94b3bb0638bd8",
+	"commitdate": "Apr 27, 2022",
 	"url": {
 		"patched": "https://github.com/ryanoasis/nerd-fonts/tree/{{commitid}}/patched-fonts",
 		"unpatched": "https://github.com/ryanoasis/nerd-fonts/tree/{{commitid}}/src/unpatched-fonts"

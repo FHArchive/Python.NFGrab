@@ -1,4 +1,3 @@
-#!/usr/bin/env python3.8
 """Iterate through each font and generate a package for each.
 """
 import hashlib
